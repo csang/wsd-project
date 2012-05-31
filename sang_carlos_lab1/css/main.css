@@ -20,12 +20,22 @@
 	ol li span {
 		color:blue;
 		font: 13px;
-		}	
-	a:hover{
+		}
+	a:link{
+		color:black;
+		}			
+	a:visited{
 		color:purple;
 		}
+	a:hover{
+		color:silver;
+		}
+	a:active{
+		color:green;
+		}	
+
 	P:first-letter{
-		font: 16px;
+		font: 18px;
 		}
 	.thanks{
 		color:red;
