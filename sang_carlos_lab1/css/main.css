@@ -1,0 +1,35 @@
+	*{
+		font: arial;
+		}
+	h1 {
+		color:blue;
+		font: 30px;
+		}
+	h2, h3 {
+		color:blue;
+		font: 22px;
+		}
+	p {
+		color:blue;
+		font: 13px;
+		}
+	li {
+		color:purple;
+		font: 13px;
+		}
+	ol li span {
+		color:blue;
+		font: 13px;
+		}	
+	a:hover{
+		color:purple;
+		}
+	P:first-letter{
+		font: 16px;
+		}
+	.thanks{
+		color:red;
+		}
+	#companyname{
+		font-weight:bold;
+		}
