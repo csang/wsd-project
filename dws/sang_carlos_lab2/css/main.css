@@ -1,0 +1,54 @@
+/*------------------------------=Body----------------------------------------------------*/
+
+body {
+	font: "bold 62.5%/1.5 helvetica, sans-serif";
+	color: #ffffff;
+	background-color: black;
+	font-variant: small-caps;
+	margin: 50px;
+	}
+
+/*-----------------------------=Header 1-------------------------------------------------*/
+
+h1 {
+	font-size: 3em;
+	letter-spacing: 2px;
+	}
+
+/*-----------------------------=Header 2-------------------------------------------------*/	
+
+h2 {
+	letter-spacing: 2px;
+	}	
+
+/*--------------------------=Navigation Bar----------------------------------------------*/	
+
+ul li {
+	list-style-type: none;
+	margin: 10px;
+	padding: 0;
+	display: inline;
+	font-size: 1.5em;
+	font-style: italic;
+	} 	
+
+/*---------------------=Paragraphs and Ordered List--------------------------------------*/	
+
+p, ol {	
+	color: "rgba(255,255,255,0)";
+	font-size: 1em;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-style: normal;
+	text-align: left;
+	text-decoration: none;
+	line-height: 20px;
+	vertical-align: top;
+	list-style-type: none;
+	opacity: 1;
+	text-shadow: none;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	text-indent: 0px;
+	text-transform: lowercase;
+	}
