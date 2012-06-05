@@ -1,0 +1,13 @@
+Repo:
+https://github.com/csang/wsd-project
+
+HTML5 Check:
+http://csang.github.com/wsd-project/wdf/sang_carlos_lab4/html5_check
+
+Pixel Refills:
+
+	Index:
+	http://csang.github.com/wsd-project/wdf/sang_carlos_lab4/pixel_refills/index
+
+	Style Guide:
+	http://csang.github.com/wsd-project/wdf/sang_carlos_lab4/pixel_refills/style_guide
