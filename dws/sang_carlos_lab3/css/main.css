@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 960px;
+	margin: 0 auto;
+	background: black;
+}
+
+header {
+	width: 100%;
+	background: #ccc;
+	height: 100px;
+}
+
+header h1 {
+	float: left;
+}
+
+header ul {
+	float: right;
+}
+
+header ul li {
+	width: 100px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+#page-wrapper {
+	width: 960px;
+	background: #f0f0f0;
+}
+
+article {
+	width: 600px;
+	background: #fff;
+	padding: 10px;
+	float: left;
+}
+
+aside {
+	width: 300px;
+	float: left;
+	padding: 10px;
+}
+
+footer {
+	clear: both;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+	background: #222;
+}
+
+ul {
+	list-style: none
+	}
