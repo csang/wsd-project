@@ -1,8 +1,14 @@
+/*--------------------=General Content-----------------------------------*/
 body {
 	background: #000 url(../images/background/bg_tron.jpg) repeat-x;
  	width: 960px;
  	margin: 0 auto;
  }
+ 
+body p, li, dd {
+	font: 62.5%/1.5 Monaco, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
  
 header {
 	clear: right;
@@ -16,6 +22,45 @@ header h1 {
 #cta div{
 	margin: 10px 100px 20px;
 	}
+	
+div {
+	background-image: url(../images/background/pattern.png);
+	width: 630px;
+	margin: 30px 0;
+	}	
+	
+#main {
+	border-style: solid;
+	border-color: #00ffff;
+	border-width: 2px;
+	float: left;
+	}
+	
+#aside {
+	float: right;
+	width: 320px;
+	margin: 470px 0;
+	}
+	
+footer {
+	clear: left;
+	width: 600px;
+	}
+
+ p, li, dd {
+  color: #fff;
+  margin: 15px;
+  }
+  
+h1, h2, dt {
+	color: #0ff;
+	margin: 10px;
+	}
+	
+section ul li {
+	list-style: none;
+	}
+
 
 /*-----------------------------=Navigation-------------------------------*/
 	
@@ -101,48 +146,3 @@ nav a{
 #cta a:active {
 	background-position: 0 -100px;
 	}
-
-div {
-	background-image: url(../images/background/pattern.png);
-	width: 630px;
-	margin: 30px 0;
-	}	
-	
-#main {
-	border-style: solid;
-	border-color: #00ffff;
-	border-width: 2px;
-	float: left;
-	}
-	
-#aside {
-	float: right;
-	width: 320px;
-	margin: 470px 0;
-	}
-	
-footer {
-	clear: left;
-	width: 600px;
-	}
-	
-/*section {
-	border-style: solid;
-	border-color: #00ffff;
-	border-width: 3px;
-	}
- */
- p, li, dd {
-  color: #fff;
-  margin: 15px;
-  }
-  
-h1, h2, dt {
-	color: #0ff;
-	margin: 10px;
-	}
-	
-section ul li {
-	list-style: none;
-	}
-	
