@@ -1,0 +1,249 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+body {
+	width: 90%;
+	margin: 0 auto;
+	background: #000;
+	font-size: 62.5%;
+	}
+
+p, li {
+	font-size: 1.5em;
+	margin: 0 0 2%;
+	}
+	
+h1 {
+	font-size: 4em;
+	}
+	
+h2 {
+	font-size: 3em;
+	margin: 0 0 10px;
+	}
+	
+h3 {
+	font-size: 2em;
+	}
+
+header {
+	width: 100%;
+	background: #ccc;
+	height: 90px;
+	}
+
+header h1 {
+	float: left;
+	margin: 2%;
+	}
+
+header ul {
+	float: left;
+	margin: 20px 4%;
+	width: 70%;
+	}
+
+header ul li {
+	float: left;
+	width: 10%;
+	height: 30px;
+	margin-right: 5%;
+	padding-left: 5%;
+	}
+
+#page-wrapper {
+	width: 100%;
+	background: #f0f0f0;
+	}
+
+article {
+	width: 60%;
+	background: #fff;
+	padding: 2%;
+	float: left;
+	}
+
+aside {
+	width: 30%;
+	float: left;
+	padding: 3%;
+	}
+	
+aside li {
+	margin: 4% 3%;
+	}
+
+#gallery {
+	clear: left;
+	width: 60%;
+	}
+	
+#gallery li {
+	float: left;
+	margin: 0 4%;
+	}
+
+footer {
+	clear: both;
+	padding: 2%;
+	color: #fff;
+	text-align: center;
+	background: #222;
+	}
+
+ul {
+	list-style: none
+	}
+	
+img {
+	max-width: 100%;
+	}
+
+	
+/*--------------------------------------------------------------------------------------
+			=Media Queries
+--------------------------------------------------------------------------------------*/
+
+/*--------------------=iPhone----------------------------*/
+
+@media screen and (max-width: 320px) {
+
+	body {
+		width: 95%;
+		margin: 0 auto;
+		}
+	
+	article, aside {
+		float: none;
+		width: 95%;
+		}
+		
+	header {
+		width: 100%
+		}
+		
+	h1 {
+		padding-left: 25%;
+		}
+		
+	h2 {
+		clear: left;
+		}
+
+	footer {
+		clear: none;
+		}
+		
+	header ul {
+		width: 100%;
+		}
+	
+	header ul li {
+		width: 22%;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		border-style: solid;
+		border: 1%;
+		}
+		
+	footer {
+		clear: left;
+		}
+
+	}
+
+@media screen and (max-width: 480px) {
+	
+	body {
+		width: 95%;
+		margin: 0 auto;
+		}
+	
+	article, aside {
+		float: none;
+		width: 95%;
+		}
+		
+	header {
+		width: 100%
+		}
+		
+	h1 {
+		padding-left: 25%;
+		}
+		
+	h2 {
+		clear: left;
+		}
+
+	footer {
+		clear: none;
+		}
+		
+	header ul {
+		width: 100%;
+		}
+	
+	header ul li {
+		width: 22%;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		border-style: solid;
+		border: 1%;
+		}
+		
+	footer {
+		clear: left;
+		}
+
+	}
+	
+/*--------------------=iPad----------------------------*/
+
+@media screen and (max-width: 1024px) {
+
+	#gallery li {
+		float: left;
+		margin: 0 4%;
+		}
+		
+	header {
+		width: 100%;
+		background: #0f0;
+		height: 90px;
+		}
+		
+	footer {
+		color: #000;
+		background: #0f0;
+		}
+	}
+	
+@media screen and (max-width: 768px) {
+
+	#gallery li {
+		float: left;
+		margin-left: none;
+		}
+		
+	header {
+		width: 100%;
+		background: #ff9000;
+		height: 90px;
+		}
+		
+	footer {
+		background: #ff9000;
+		}
+		
+	}
+	
+/*--------------------=Computer----------------------------*/
+
+@media screen and (max-width: 960px) {
+
+	}
