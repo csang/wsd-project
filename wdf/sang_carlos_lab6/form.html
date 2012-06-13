@@ -2,7 +2,40 @@
 <html lang="en">
 <head>
 	<meta charaset="utf-8"/>
-	<title>HTML5 Table</title>
+	<title>HTML5 Form</title>
 </head>
 	<body>
-	
+		<form method=”post” action=carlos.chino11@hotmail.com>
+			<p>Username:<br /><!-- Input text -->
+				<input type="text" name="user_name" />
+			</p>
+			<p>Password:<br /><!-- Input text -->
+				<input type="password" name="password" />
+			</p>
+			<p>What pet do you have?</p>
+			<ul>	
+				<li><input type="checkbox" name="answer" value="dog">Dog</li><!-- Checkbox -->
+				<li><input type="checkbox" name="answer" value="cat">Cat</li><!-- Checkbox -->
+			</ul>
+			<p>Do you understand this?</p>
+			<ul>	
+				<li><input type="radio" name="answer" value="yes">Yes</li><!-- Radio -->
+				<li><input type="radio" name="answer" value="no">No</li><!-- Radio -->
+			</ul>
+			<p>
+				<input type="submit" value="send" /><!-- Submit button -->
+			</p>
+			<p>
+  				<label for="perfectday">Describe your perfect day:</label><br />
+ 				<textarea id="perfectday"></textarea><!-- Text Area -->
+			</p>
+			<p>
+				<select name="Language"><!-- Select -->
+					<option>English</option><!-- Option -->
+					<option>Spanish</option><!-- Option -->
+					<option>French</option><!-- Option -->
+				</select>
+			</p>	
+		</form>
+	</body>
+</html>		
