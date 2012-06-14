@@ -1,0 +1,33 @@
+<?xml version=”1.0” encoding=”utf-8” ?>
+<rss version=”2.0”>
+	<channel>
+		<title>Movie reviews</title>
+		<link>http://csang.github.com/wsd-project/wdf/sang_carlos_lab7/reviews</link>
+		<description>Here you can find reviews about the best movies shown in theaters. If you need feedback about a certain movie you're in the right place. Here all your questions will be answered.</description>
+		
+		<item>
+			<title>Inception</title>
+			<link>http://csang.github.com/wsd-project/wdf/sang_carlos_lab7/rss_link</link>
+			<description>Mind-blowing action movie. After watching Inception you will end up thinking about reality. This movie plays with our mind and shows us amazing visual effects.</description>
+		</item>
+		
+		<item>
+			<title>Men in Black 3</title>
+			<link>http://csang.github.com/wsd-project/wdf/sang_carlos_lab7/rss_link</link>
+			<description>Very funny and great action movie for the Men in Black trilogy. The ending was totally unexpected and answers a question from the previous movies.</description>
+		</item>
+		
+		<item>
+			<title>The Avengers</title>
+			<link>http://csang.github.com/wsd-project/wdf/sang_carlos_lab7/rss_link</link>
+			<description>Hero's from Marvel saving the world once again. If you love comics or super heroes than you will love this movie. It's not just full of action but is also very funny. In this movie appears Iron Man, Captain America, Thor, Hawkeye, Hulk and the Black Widow.</description>
+		</item>
+		
+		<item>
+			<title>The Grey</title>
+			<link>http://csang.github.com/wsd-project/wdf/sang_carlos_lab7/rss_link</link>
+			<description>Great movie about survivors from an airplane crash in the woods with wolves surrounding them. It's a must to watch movie.   </description>
+		</item>
+		
+	</channel>
+</rss>
