@@ -1,5 +1,5 @@
-<?xml version=”1.0” encoding=”utf-8” ?>
-<rss version=”2.0”>
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
 	<channel>
 		<title>Movie reviews</title>
 		<link>http://csang.github.com/wsd-project/wdf/sang_carlos_lab7/reviews</link>
@@ -26,7 +26,7 @@
 		<item>
 			<title>The Grey</title>
 			<link>http://csang.github.com/wsd-project/wdf/sang_carlos_lab7/rss_link</link>
-			<description>Great movie about survivors from an airplane crash in the woods with wolves surrounding them. It's a must to watch movie.   </description>
+			<description>Great movie about survivors from an airplane crash in the woods with wolves surrounding them. It's a must to watch movie.</description>
 		</item>
 		
 	</channel>
