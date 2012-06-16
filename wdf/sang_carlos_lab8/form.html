@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>HTML5 Form</title>
+</head>
+	<body>
+	
+		<fieldset>
+			<legend>Form</legend>
+			<form method=”post” action="carlos.chino11@hotmail.com">
+			<label for="name">Username:</label><br /><!-- Input text -->
+				<input type="text" name="user_name" id="name" />
+				<br />
+			
+			<label for="password">Password:</label><br /><!-- Input text -->
+				<input type="password" name="password" id="password" />
+			
+			<p>What pet do you have?</p>
+			<ul>	
+				<input type="checkbox" name="answer" value="dog" id="dog" /><!-- Checkbox -->
+				<label for="dog">Dog</label>
+				<input type="checkbox" name="answer" value="cat" id="cat" /><!-- Checkbox -->
+				<label for="cat">Cat</label>
+			</ul>
+			<p>Do you understand this?</p>
+			<ul>	
+				<input type="radio" name="answer" value="yes" id="yes" /><!-- Radio -->
+				<label for="yes">Yes</label>
+				<input type="radio" name="answer" value="no" id="no" /><!-- Radio -->
+				<label for="no">No</label>
+			</ul>
+			<p>
+				<input type="submit" value="send" /><!-- Submit button -->
+			</p>
+			<p>
+  				<label for="perfectday">Describe your perfect day:</label><br />
+ 				<textarea id="perfectday"></textarea><!-- Text Area -->
+			</p>
+			<label for="select">Select your language:</label>
+				<select name="Language" id="select" ><!-- Select -->
+					<option>English</option><!-- Option -->
+					<option>Spanish</option><!-- Option -->
+					<option>French</option><!-- Option -->
+				</select>
+			</p>	
+			</form>
+		</fieldset>
+	</body>
+</html>		
