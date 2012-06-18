@@ -53,7 +53,11 @@ legend {
 	}
 	
 .note {
-	margin-left: 1%;
+	margin-left: 28%;
+	font-size: 1.2em;
+	float: none;
+	clear: left;
+	display: block;
 	}
 
 #field-agree-tos label {
