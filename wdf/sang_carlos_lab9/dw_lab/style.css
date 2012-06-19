@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	background-color: #009fe1;
+}
+
+#container {
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color: #777777;
+	width: 650px;
+	margin: 0 auto;
+	/*padding: 0 20px;*/
+	background: url(_offline/bg_wrapper.png) repeat-y;
+}
+
+header {
+	background: url(_offline/bg_header.jpg) no-repeat left top;
+	height: 130px;
+}
+
+header h1 {
+	text-indent: -9999px;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	font-weight: bold;
+	font-size: 130%;
+	margin: 0;
+	padding: 10px 20px;
+	background: url(_offline/bg_nav.jpg) repeat-x left top;
+}
+
+nav li {
+	display: inline;
+	padding-right: 2em;
+	list-style: none;
+	font-size: 80%;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+nav a:hover {
+	border-bottom: solid 1px #999999;
+}
+
+#main {
+	padding: 35px 20px 0;
+}
+
+#main h2 {
+	color: #00a1e4;
+}
+
+#content {
+	padding: 0 10px;
+	width: 350px;
+	float: right;
+}
+
+#content h2 {
+	font-size: 155%;
+	padding: 0;
+	margin: 0;
+}
+
+aside {
+	width: 220px;
+	float: left;
+	background: url(_offline/divider.jpg) no-repeat top right;
+}
+
+aside ul {
+	padding: 0;
+	margin: 0;
+}
+
+aside li {
+	list-style: none;
+	padding-bottom: 20px;
+}
+
+aside img {
+	border: solid 1px #666666;
+}
+
+footer {
+	clear: both;
+	text-align: right;
+	color: #9a9a9a;
+	padding: 15px;
+}
